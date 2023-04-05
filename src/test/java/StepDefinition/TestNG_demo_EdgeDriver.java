@@ -20,6 +20,7 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 import java.time.Duration;
+import java.util.Collections;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -46,9 +47,15 @@ public class TestNG_demo_EdgeDriver {
 
 	    
 		    WebDriverManager manager = WebDriverManager.edgedriver(); 
-		   // manager.config().setEdgeDriverVersion("84.0.522.49"); 
+		    manager.config().setEdgeDriverVersion("111.0.1661.62"); 
 		    manager.setup(); 
 		    EdgeOptions options = new EdgeOptions(); 
+		    //options = webdriver.ChromeOptions()
+		    options.setBinary("C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
+		    options.setExperimentalOption("useAutomationExtension", false);
+		    options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+
+		    		
 		    driver = new EdgeDriver(options);
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 	        driver.manage().window().maximize();
