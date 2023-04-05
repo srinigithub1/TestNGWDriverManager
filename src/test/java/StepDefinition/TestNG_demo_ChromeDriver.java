@@ -159,7 +159,7 @@ public class TestNG_demo_ChromeDriver {
 	@AfterClass
 	public void afterClass() {
 		System.out.println("Executing after method");
-		driver.close();
+		driver.quit();
 	}
 
 	@BeforeTest

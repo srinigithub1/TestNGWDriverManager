@@ -44,15 +44,7 @@ public class TestNG_demo_EdgeDriver {
 
 		Reporter.log("Executing launch_Application");
 
-//		System.setProperty("webdriver.chrome.driver", "E:\\Seleniumsoftware\\chromedriver.exe");
-//		
-//	    ChromeOptions options = new ChromeOptions();	
-////	    options.addArguments("incognito");
-//	    options.addArguments("--remote-allow-origins=*");
-//	    driver = new ChromeDriver(options);
-
-
-		    
+	    
 		    WebDriverManager manager = WebDriverManager.edgedriver(); 
 		   // manager.config().setEdgeDriverVersion("84.0.522.49"); 
 		    manager.setup(); 
@@ -161,7 +153,7 @@ public class TestNG_demo_EdgeDriver {
 	@AfterClass
 	public void afterClass() {
 		System.out.println("Executing after method");
-		driver.close();
+		driver.quit();
 	}
 
 	@BeforeTest
