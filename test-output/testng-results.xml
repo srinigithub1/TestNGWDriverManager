@@ -17,123 +17,123 @@
       <![CDATA[Executing Logout]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-04-05T20:29:43 IST" name="Default suite" finished-at="2023-04-05T20:30:12 IST" duration-ms="28312">
+  <suite started-at="2023-04-05T21:54:33 IST" name="Default suite" finished-at="2023-04-05T21:55:00 IST" duration-ms="27236">
     <groups>
     </groups>
-    <test started-at="2023-04-05T20:29:43 IST" name="Default test" finished-at="2023-04-05T20:30:12 IST" duration-ms="28312">
-      <class name="StepDefinition.TestNG_demo_Class2">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:43 IST" name="beforeSuite" finished-at="2023-04-05T20:29:43 IST" duration-ms="11" status="PASS">
+    <test started-at="2023-04-05T21:54:33 IST" name="Default test" finished-at="2023-04-05T21:55:00 IST" duration-ms="27236">
+      <class name="StepDefinition.TestNG_demo_EdgeDriver">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:33 IST" name="beforeSuite" finished-at="2023-04-05T21:54:33 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:43 IST" name="beforeTest" finished-at="2023-04-05T20:29:43 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:33 IST" name="beforeTest" finished-at="2023-04-05T21:54:33 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:43 IST" name="beforeClass" finished-at="2023-04-05T20:29:43 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:33 IST" name="beforeClass" finished-at="2023-04-05T21:54:33 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:43 IST" name="beforeMethod" finished-at="2023-04-05T20:29:43 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:33 IST" name="beforeMethod" finished-at="2023-04-05T21:54:33 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="launch_Application()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:43 IST" name="launch_Application" finished-at="2023-04-05T20:29:48 IST" duration-ms="5009" status="PASS">
+        <test-method signature="launch_Application()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:33 IST" name="launch_Application" finished-at="2023-04-05T21:54:40 IST" duration-ms="6851" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Executing launch_Application]]>
             </line>
           </reporter-output>
         </test-method> <!-- launch_Application -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:48 IST" name="afterMethod" finished-at="2023-04-05T20:29:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:40 IST" name="afterMethod" finished-at="2023-04-05T21:54:40 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="login()[pri:1, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:48 IST" name="login" finished-at="2023-04-05T20:29:49 IST" duration-ms="568" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:40 IST" name="beforeMethod" finished-at="2023-04-05T21:54:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login()[pri:1, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:40 IST" name="login" finished-at="2023-04-05T21:54:41 IST" duration-ms="527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:48 IST" name="beforeMethod" finished-at="2023-04-05T20:29:48 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:49 IST" name="afterMethod" finished-at="2023-04-05T20:29:49 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:41 IST" name="afterMethod" finished-at="2023-04-05T21:54:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:49 IST" name="beforeMethod" finished-at="2023-04-05T20:29:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:41 IST" name="beforeMethod" finished-at="2023-04-05T21:54:41 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="add_product()[pri:2, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:49 IST" name="add_product" finished-at="2023-04-05T20:29:56 IST" duration-ms="7356" status="PASS">
+        <test-method signature="add_product()[pri:2, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:41 IST" name="add_product" finished-at="2023-04-05T21:54:48 IST" duration-ms="7353" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[adding product ]]>
             </line>
           </reporter-output>
         </test-method> <!-- add_product -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:56 IST" name="afterMethod" finished-at="2023-04-05T20:29:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:48 IST" name="afterMethod" finished-at="2023-04-05T21:54:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:56 IST" name="beforeMethod" finished-at="2023-04-05T20:29:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:48 IST" name="beforeMethod" finished-at="2023-04-05T21:54:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="customer_info()[pri:3, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:56 IST" name="customer_info" finished-at="2023-04-05T20:29:57 IST" duration-ms="513" status="PASS">
+        <test-method signature="customer_info()[pri:3, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:48 IST" name="customer_info" finished-at="2023-04-05T21:54:49 IST" duration-ms="508" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[processing customer_Info]]>
             </line>
           </reporter-output>
         </test-method> <!-- customer_info -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:57 IST" name="afterMethod" finished-at="2023-04-05T20:29:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:49 IST" name="afterMethod" finished-at="2023-04-05T21:54:49 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:57 IST" name="beforeMethod" finished-at="2023-04-05T20:29:57 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:49 IST" name="beforeMethod" finished-at="2023-04-05T21:54:49 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="check_out()[pri:4, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:29:57 IST" name="check_out" finished-at="2023-04-05T20:30:04 IST" duration-ms="7193" status="PASS">
+        <test-method signature="check_out()[pri:4, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:49 IST" name="check_out" finished-at="2023-04-05T21:54:56 IST" duration-ms="7203" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[processing check_out]]>
             </line>
           </reporter-output>
         </test-method> <!-- check_out -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:30:04 IST" name="afterMethod" finished-at="2023-04-05T20:30:04 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:56 IST" name="afterMethod" finished-at="2023-04-05T21:54:56 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:30:04 IST" name="beforeMethod" finished-at="2023-04-05T20:30:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="Logout()[pri:5, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:30:04 IST" name="Logout" finished-at="2023-04-05T20:30:11 IST" duration-ms="7307" status="PASS">
+        <test-method signature="Logout()[pri:5, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:56 IST" name="Logout" finished-at="2023-04-05T21:55:00 IST" duration-ms="4195" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Executing Logout]]>
             </line>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:30:11 IST" name="afterMethod" finished-at="2023-04-05T20:30:11 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:54:56 IST" name="beforeMethod" finished-at="2023-04-05T21:54:56 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:55:00 IST" name="afterMethod" finished-at="2023-04-05T21:55:00 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:30:11 IST" name="afterClass" finished-at="2023-04-05T20:30:12 IST" duration-ms="273" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:55:00 IST" name="afterClass" finished-at="2023-04-05T21:55:00 IST" duration-ms="463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:30:12 IST" name="afterTest" finished-at="2023-04-05T20:30:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:55:00 IST" name="afterTest" finished-at="2023-04-05T21:55:00 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:StepDefinition.TestNG_demo_Class2@48aca48b]" started-at="2023-04-05T20:30:12 IST" name="afterSuite" finished-at="2023-04-05T20:30:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:StepDefinition.TestNG_demo_EdgeDriver@48aca48b]" started-at="2023-04-05T21:55:00 IST" name="afterSuite" finished-at="2023-04-05T21:55:00 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- StepDefinition.TestNG_demo_Class2 -->
+      </class> <!-- StepDefinition.TestNG_demo_EdgeDriver -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
